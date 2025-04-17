@@ -47,12 +47,12 @@ if loginInfo then
     --sistema de usuario e senha!!! se quiser criar outros e so copiar e colar logo abaixo e trocar o usuario e a senha
                                 --usuario                    senha
 if loginInfo and loginInfo[1] == "lucas" and loginInfo[2] == "112113" then
-    expirationYear = 2025
+    expirationYear = 2026
     expirationMonth = 4
     expirationDay = 6
     expirationHour = 8
     expirationMinute = 10
-    usuario = loginInfo[1]
+    usuario = loginInfo[2]
 
    
 else
@@ -61,13 +61,13 @@ else
 end
 
 if saveLoginOption then
-    saveLogin(login, password)
+    saveLogin(login, macarrão 
 end
  
 
-gg.alert("Bem-vindo, " .. usuario .. "!")
+gg.alert("Bem-vindo, " .. vitor .. "!")
 else
-    gg.alert("Nenhum login fornecido!")
+    gg.alert("login fornecido!")
     os.exit()
 end
 
